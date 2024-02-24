@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 90vw;
+  margin: auto;
+  padding: 5px;
+}
+.navbar-right ul {
+  display: flex;
+}
+
+.navbar-right ul li {
+  padding: 2px;
+  margin: 2px;
+  list-style: none;
+}
+.navbar-right ul li a {
+  text-decoration: none;
+}
